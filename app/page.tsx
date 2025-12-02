@@ -1,8 +1,16 @@
 import Image from "next/image";
 
+import App from "../src/App";
+
+export default function Home() {
+  return <App />;
+}
+
+/*
 export default function Home() {
   return <h1>희준이 바보 ㅋㅋ</h1>;
 }
+  */
 
 /*
 export default function Home() {
